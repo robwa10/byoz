@@ -3,6 +3,7 @@
 # Imported modules
 from datetime import datetime # For getting the current time during logging
 import json # For parsing JSON and converting strings to JSON
+import random  # For creating a Zap ID
 import time # For creating our syncing interval
 import urllib2 # For making all our HTTP requests
 
